@@ -1,4 +1,5 @@
 // sample program from CS class
+// date : 22 sep tues
 
 #include <stdio.h>
 
