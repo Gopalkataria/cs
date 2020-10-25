@@ -1,4 +1,5 @@
 // program to find product of two numbers
+// date : 7 oct wed
 
 #include <stdio.h>
 
