@@ -1,4 +1,5 @@
-// program to
+// program to find class of students
+// date : 15 oct 2020
 
 #include <stdio.h>
 

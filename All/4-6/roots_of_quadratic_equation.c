@@ -1,4 +1,5 @@
-// program to
+// program to find roots of a quadratic equation
+// date : 15 oct 2020
 
 #include <stdio.h>
 #include <math.h>

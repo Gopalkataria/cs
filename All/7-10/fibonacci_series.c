@@ -1,3 +1,6 @@
+// program to find n terms of fibonnaci series
+// date : nov nov 2020
+
 #include <stdio.h>
 
 int main(void)
