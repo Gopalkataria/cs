@@ -1,4 +1,4 @@
-## This repo has got all code from CS class in 2020
+## Code for CS class in 2020
 
 
 This code is licensed under MIT license. Use this code only if you agree to the license
