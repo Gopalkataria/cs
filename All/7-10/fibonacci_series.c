@@ -1,4 +1,4 @@
-// program to find n terms of fibonnaci series
+// program to find n terms of fibonacci series
 // date : nov nov 2020
 
 #include <stdio.h>
