@@ -9,7 +9,7 @@ int main()
     // variable declarations
     int n, summationEven = 0;
 
-    // taking input
+    // taking input7
     printf("Enter the value for n ");
     scanf("%d", &n);
 

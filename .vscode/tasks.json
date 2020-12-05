@@ -3,8 +3,8 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "C/C++: gcc.exe build active file",
-			"command": "D:\\sys\\MinGW\\mingw64\\bin\\gcc.exe",
+			"label": "C/C++: g++.exe build active file",
+			"command": "D:\\sys\\MinGW\\mingw64\\bin\\g++.exe",
 			"args": [
 				"-g",
 				"${file}",
@@ -12,8 +12,36 @@
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
-				"cwd": "${workspaceFolder}"
+				"cwd": "${workspaceFolder}",
+				"shell": {
+					"executable": "powershell.exe"
+				}
 			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"type": "shell",
+			"label": "C/C++: g++.exe build and run active file",
+			"command": "D:\\sys\\MinGW\\mingw64\\bin\\g++.exe -g ${file} -o ${fileBasenameNoExtension}.exe ; .\\${fileBasenameNoExtension}.exe ; echo `n ",
+			"options": {
+				"cwd": "${workspaceFolder}",
+				"shell": {
+					"executable": "powershell.exe"
+				},
+			},
+			"promptOnClose": false,
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": true,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+
 			"problemMatcher": [
 				"$gcc"
 			],
