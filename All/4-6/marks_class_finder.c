@@ -1,4 +1,6 @@
-// program to find class of students
+// This file is covered by the LICENSE file in the root of this repository
+
+// Program to  find class of students
 // date : 15 oct 2020
 
 #include <stdio.h>

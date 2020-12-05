@@ -1,4 +1,6 @@
-// program to find roots of a quadratic equation
+// This file is covered by the LICENSE file in the root of this repository
+
+// Program to  find roots of a quadratic equation
 // date : 15 oct 2020
 
 #include <stdio.h>

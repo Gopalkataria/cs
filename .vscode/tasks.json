@@ -12,7 +12,7 @@
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
-				"cwd": "${workspaceFolder}",
+				"cwd": "${fileDirname}",
 				"shell": {
 					"executable": "powershell.exe"
 				}
@@ -27,7 +27,7 @@
 			"label": "C/C++: g++.exe build and run active file",
 			"command": "D:\\sys\\MinGW\\mingw64\\bin\\g++.exe -g ${file} -o ${fileBasenameNoExtension}.exe ; .\\${fileBasenameNoExtension}.exe ; echo `n ",
 			"options": {
-				"cwd": "${workspaceFolder}",
+				"cwd": "${fileDirname}",
 				"shell": {
 					"executable": "powershell.exe"
 				},

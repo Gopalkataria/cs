@@ -1,4 +1,6 @@
-// program to convert temperature from celsius to fahrenheit
+// This file is covered by the LICENSE file in the root of this repository
+
+// Program to  convert temperature from celsius to fahrenheit
 // date : 2nd oct friday
 
 #include <stdio.h>

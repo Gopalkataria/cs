@@ -1,4 +1,6 @@
-// program to find volume of a sphere
+// This file is covered by the LICENSE file in the root of this repository
+
+// Program to  find volume of a sphere
 // date : 15 oct 2020
 #include <stdio.h>
 

@@ -1,5 +1,7 @@
-// program to find factorial using for loop
-// date : 4 decemeber 2020
+// This file is covered by the LICENSE file in the root of this repository
+
+// Program to  find factorial using for loop
+// date : 4 december 2020
 
 #include <stdio.h>
 

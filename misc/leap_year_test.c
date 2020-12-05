@@ -1,4 +1,6 @@
-// program to find whether year is leap or not
+// This file is covered by the LICENSE file in the root of this repository
+
+// Program to  find whether year is leap or not
 
 #include <stdio.h>
 

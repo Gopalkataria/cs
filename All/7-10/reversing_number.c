@@ -1,4 +1,6 @@
-// program to reverse a number
+// This file is covered by the LICENSE file in the root of this repository
+
+// Program to  reverse a number
 // date : 8 nov 2020
 
 #include <stdio.h>

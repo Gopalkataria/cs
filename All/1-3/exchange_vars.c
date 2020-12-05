@@ -1,4 +1,6 @@
-// program to exchange two variables without using a third variable
+// This file is covered by the LICENSE file in the root of this repository
+
+// Program to  exchange two variables without using a third variable
 // date : 2nd oct friday
 
 #include <stdio.h>

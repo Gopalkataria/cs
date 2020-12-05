@@ -1,4 +1,6 @@
-// program to find the type of the triangle
+// This file is covered by the LICENSE file in the root of this repository
+
+// Program to  find the type of the triangle
 
 #include <stdio.h>
 

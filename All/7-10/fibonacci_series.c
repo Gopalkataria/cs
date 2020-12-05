@@ -1,4 +1,6 @@
-// program to find n terms of fibonacci series
+// This file is covered by the LICENSE file in the root of this repository
+
+// Program to  find n terms of fibonacci series
 // date : nov nov 2020
 
 #include <stdio.h>
