@@ -1,9 +1,10 @@
 // This file is covered by the LICENSE file in the root of this repository
 
-// Program to  find su of even numbers until n
+// Program to  find curved surface area of sphere or cone as per user's choice 
 // date : 4 december 2020
 
 #include <stdio.h>
+#include <math.h> 
 
 int main()
 {
@@ -13,7 +14,7 @@ int main()
     float radius, volume, height;
 
     // taking input7
-    printf("Enter the choice  \n Volume of Sphere : 1 \n Volume of Cone : 2 \n      \n Your choice ");
+    printf("Enter the choice  \n Surface area of Sphere : 1 \n Surface area of Cone : 2 \n      \n Your choice ");
     scanf("%d", &choice);
 
     // logic
@@ -27,10 +28,10 @@ int main()
         scanf("%f", &radius);
 
         // logic
-        volume = (4 * 3.14 * radius * radius * radius) / 3;
+        volume = (4 * 3.14 * radius * radius) ;
 
         // printing output
-        printf(" The volume is %f ", volume);
+        printf(" The Surface area is %f ", volume);
         break;
 
     case 2:
@@ -41,15 +42,16 @@ int main()
         scanf("%f%f", &radius, &height);
 
         // logic
-        volume = (3.14 * radius * radius * height) / 3;
+        volume = (3.14 * radius * ( sqrt( (height* height ) + (radius * radius )) ) ) ;
 
         // printing output
-        printf(" The volume is %f ", volume);
+        printf(" The surface area is %f ", volume);
         break;
 
     default:
         printf("invalid input");
         break;
     }
+    printf("\n") ;
     return 0;
 }
