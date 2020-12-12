@@ -1,17 +1,17 @@
 // This file is covered by the LICENSE file in the root of this repository
 
-// Program to  find curved surface area of sphere or cone as per user's choice 
-// date : 4 december 2020
+// Program to  find curved surface area of sphere or cone as per user's choice
+// date : 7 december 2020
 
 #include <stdio.h>
-#include <math.h> 
+#include <math.h>
 
 int main()
 {
 
     // variable declarations
     int choice;
-    float radius, volume, height;
+    float radius, area, height;
 
     // taking input7
     printf("Enter the choice  \n Surface area of Sphere : 1 \n Surface area of Cone : 2 \n      \n Your choice ");
@@ -28,10 +28,10 @@ int main()
         scanf("%f", &radius);
 
         // logic
-        volume = (4 * 3.14 * radius * radius) ;
+        area = (4 * 3.14 * radius * radius);
 
         // printing output
-        printf(" The Surface area is %f ", volume);
+        printf(" The Surface area is %f ", area);
         break;
 
     case 2:
@@ -42,16 +42,17 @@ int main()
         scanf("%f%f", &radius, &height);
 
         // logic
-        volume = (3.14 * radius * ( sqrt( (height* height ) + (radius * radius )) ) ) ;
+        area = (3.14 * radius * (radius + (sqrt((height * height) + (radius * radius)))));
 
         // printing output
-        printf(" The surface area is %f ", volume);
+        printf(" The surface area is %f ", area);
         break;
 
     default:
         printf("invalid input");
         break;
     }
-    printf("\n") ;
+    printf("\n");
+
     return 0;
 }
