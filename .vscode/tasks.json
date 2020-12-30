@@ -5,7 +5,7 @@
 			"type": "shell",
 			"label": "C/C++: g++.exe build active file",
 
-			"command": "D:\\sys\\MinGW\\mingw64\\bin\\g++.exe",
+			"command": "C:\\MinGW\\mingw64\\bin\\g++.exe",
 			"args": [
 				"-g",
 				"${file}",
@@ -28,7 +28,7 @@
 		{
 			"type": "shell",
 			"label": "C/C++: g++.exe build and run active file",
-			"command": "D:\\sys\\MinGW\\mingw64\\bin\\g++.exe -g ${file} -o ${fileBasenameNoExtension}.exe ; .\\${fileBasenameNoExtension}.exe ; echo `n ",
+			"command": "C:\\MinGW\\mingw64\\bin\\g++.exe -g ${file} -o ${fileBasenameNoExtension}.exe ; .\\${fileBasenameNoExtension}.exe ; echo `n ",
 			"options": {
 				"cwd": "${fileDirname}",
 				"shell": {
