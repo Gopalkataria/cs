@@ -8,7 +8,7 @@
         "name": "C++ Launch (Windows)",
         "type": "cppvsdbg",
         "request": "launch",
-        "program": "D:/projects/cs/All/17-19/performingInsertionInSortedArray.exe",
+        "program": "D:/projects/test.exe",
         "symbolSearchPath": "C:\\Symbols;C:\\SymbolDir2",
         "cwd": "${workspaceRoot}",
         "logging": {
@@ -23,7 +23,7 @@
          "name": "(gdb) Launch",
          "type": "cppdbg",
          "request": "launch",
-        "program": "D:/projects/cs/All/17-19/performingInsertionInSortedArray.exe",
+        "program": "D:/projects/cs/test.exe",
          "args": [],
          "stopAtEntry": false,
          "cwd": "${workspaceFolder}",

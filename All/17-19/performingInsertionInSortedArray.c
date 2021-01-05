@@ -6,44 +6,40 @@
 
 int main()
 {
-    int numArrayLen, newElem, currentElement, i;
 
-    // taking input for array length
-    printf(" Enter the number of integers you want to enter : ");
-    scanf("%d", &numArrayLen);
+    printf("how many digits you want to enter ");
+    int numberOfElements, i, newElement;
+    scanf("%d", &numberOfElements);
 
-    // initializing the array with 1 extra element to adjust for the new incoming element
-    int numArray[numArrayLen + 1];
+    // initializing the array
+    int numArray[numberOfElements + 1];
 
-    // taking input for all the array elements
-    printf("Enter the integers seperated by spaces in ascending order \n");
-    for (i = 0; i < numArrayLen; i++)
+    // taking input for array elements
+    printf("Enter the digits in ascending order ");
+    for (i = 0; i < numberOfElements; i++)
     {
         scanf("%d", &numArray[i]);
     }
 
-    printf("Enter the new element to be added  \n");
-    scanf("%d", &newElem);
-    printf("%d \n", newElem);
+    // taking input for new element
+    printf(" Enter the new element ");
+    scanf("%d", &newElement);
 
-    numArray[numArrayLen] = newElem;
 
-    // sorting the array
-    for (int i = 0; i < numArrayLen + 1; i++)
+    i = numberOfElements - 1;
+    // looping in reverse manner array
+    // constantly checking whether current element is higher than new element or not
+    while (numArray[i] > newElement && i >= 0)
     {
-        for (int j = 0; j < i; j++)
-        {
-            if (numArray[i] < numArray[j])
-            {
-                int temp = numArray[i];
-                numArray[i] = numArray[j];
-                numArray[j] = temp;
-            }
-        }
+        // shifting elements to the next index to make space for incoming element
+        numArray[i + 1] = numArray[i];
+        i--;
     }
 
-    // printing the array
-    for (int i = 0; i < numArrayLen + 1; i++)
+    // adding the element in its righteous place
+    numArray[i + 1] = newElement;
+
+    for (i = 0; i < numberOfElements + 1; i++)
     {
         printf("%d ", numArray[i]);
     }
