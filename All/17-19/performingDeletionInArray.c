@@ -25,6 +25,8 @@ int main()
     printf("Enter the position of the element to be deleted   \n");
     scanf("%d", &position);
 
+    position--; // offsetting the value to use further in program
+
     if (position > numArrayLen)
     { // input validation to avoid unwanted problems
         printf("Invalid input for position ");

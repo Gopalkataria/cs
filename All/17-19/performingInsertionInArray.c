@@ -24,13 +24,13 @@ int main()
 
     printf("Enter the new element and position seperated by spaces  \n");
     scanf("%d%d", &newElem, &position);
+    position--; // offsetting the value to use further in program
 
     if (position > numArrayLen)
     { // input validation
         printf("Invalid input for position ");
         return -1;
     }
-
     // initializing new array to store changed elements
     int numArrayCopy[numArrayLen + 1];
 
