@@ -1,5 +1,3 @@
-
-
 // Program to  find first n prime numbers
 // date : 7 december 2020
 

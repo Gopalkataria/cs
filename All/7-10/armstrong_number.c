@@ -1,5 +1,3 @@
-
-
 // Program to  find whether a number is armstrong number or not
 // date : 8 nov 2020
 

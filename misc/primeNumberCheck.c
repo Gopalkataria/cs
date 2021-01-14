@@ -1,5 +1,3 @@
-
-
 // Program to check whether the entered number is a prime number or not
 // date : 23 december 2020
 

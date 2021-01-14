@@ -1,5 +1,3 @@
-
-
 // Program to  find su of even numbers until n
 // date : 4 december 2020
 

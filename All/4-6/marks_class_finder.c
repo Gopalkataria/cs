@@ -1,5 +1,3 @@
-
-
 // Program to  find class of students
 // date : 15 oct 2020
 

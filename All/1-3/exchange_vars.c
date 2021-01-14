@@ -1,5 +1,3 @@
-
-
 // Program to  exchange two variables without using a third variable
 // date : 2nd oct friday
 

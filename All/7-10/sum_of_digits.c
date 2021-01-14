@@ -1,5 +1,3 @@
-
-
 // Program to  sum of digits of a number
 // date : 8 nov 2020
 

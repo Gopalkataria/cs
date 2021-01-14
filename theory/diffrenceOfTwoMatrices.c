@@ -1,5 +1,3 @@
-
-
 // Program to find difference of two matrices
 // date : 13 jan 2021
 

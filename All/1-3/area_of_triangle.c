@@ -1,6 +1,4 @@
-
-
-// Program to  find area of a triangle
+ // Program to  find area of a triangle
 // date : 2nd oct friday
 
 #include <stdio.h>

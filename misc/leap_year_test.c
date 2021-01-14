@@ -1,5 +1,3 @@
-
-
 // Program to  find whether year is leap or not
 
 #include <stdio.h>

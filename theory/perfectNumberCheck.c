@@ -1,6 +1,4 @@
-
-
-// program to check whether an entered number is an perfect number or not
+// Program to check whether an entered number is an perfect number or not
 // date : 24 December 2020
 
 #include <stdio.h>

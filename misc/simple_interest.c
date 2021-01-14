@@ -1,5 +1,3 @@
-
-
 // Program to  find simple interest given rate, principal and time
 // date : 7 oct wed
 

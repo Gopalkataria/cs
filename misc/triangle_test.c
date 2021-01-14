@@ -1,5 +1,3 @@
-
-
 // Program to  find the type of the triangle
 
 #include <stdio.h>

@@ -1,6 +1,4 @@
-
-
-// program to find area or perimeter of a square depending on user choice
+// Program to find area or perimeter of a square depending on user choice
 // date : 24 December 2020
 
 #include <stdio.h>

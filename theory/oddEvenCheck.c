@@ -1,6 +1,4 @@
-
-
-// program to check whether an entered number id odd or even
+// Program to check whether an entered number id odd or even
 // date : 24 December 2020
 
 #include <stdio.h>

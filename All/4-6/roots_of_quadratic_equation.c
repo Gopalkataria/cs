@@ -1,5 +1,3 @@
-
-
 // Program to  find roots of a quadratic equation
 // date : 15 oct 2020
 

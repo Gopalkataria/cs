@@ -1,5 +1,3 @@
-
-
 // Program to  reverse a number
 // date : 8 nov 2020
 
