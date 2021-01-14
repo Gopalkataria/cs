@@ -1,4 +1,4 @@
-// This file is covered by the LICENSE file in the root of this repository
+
 
 // program to find area or perimeter of a square depending on user choice
 // date : 24 December 2020

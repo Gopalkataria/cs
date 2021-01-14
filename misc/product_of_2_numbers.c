@@ -1,4 +1,4 @@
-// This file is covered by the LICENSE file in the root of this repository
+
 
 // Program to  find product of two numbers
 // date : 7 oct wed

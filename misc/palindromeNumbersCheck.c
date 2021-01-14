@@ -1,4 +1,4 @@
-// This file is covered by the LICENSE file in the root of this repository
+
 
 // Program to check whether the entered number is a palindrome number or not
 // date : 23 december 2020

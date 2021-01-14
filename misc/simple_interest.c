@@ -1,4 +1,4 @@
-// This file is covered by the LICENSE file in the root of this repository
+
 
 // Program to  find simple interest given rate, principal and time
 // date : 7 oct wed

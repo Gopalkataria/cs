@@ -1,4 +1,4 @@
-// This file is covered by the LICENSE file in the root of this repository
+
 
 // program to check whether an entered number id odd or even
 // date : 24 December 2020

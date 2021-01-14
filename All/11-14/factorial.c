@@ -1,4 +1,4 @@
-// This file is covered by the LICENSE file in the root of this repository
+
 
 // Program to  find factorial using for loop
 // date : 4 december 2020

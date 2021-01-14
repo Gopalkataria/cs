@@ -1,4 +1,4 @@
-// This file is covered by the LICENSE file in the root of this repository
+
 
 // Program to  find area of a triangle
 // date : 2nd oct friday

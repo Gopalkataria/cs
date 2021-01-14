@@ -1,4 +1,4 @@
-// This file is covered by the LICENSE file in the root of this repository
+
 
 // Program to  find curved surface area of sphere or cone as per user's choice
 // date : 7 december 2020
