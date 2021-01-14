@@ -24,7 +24,7 @@ int main()
         }
     }
 
-    printf("Enter elements of Matrix B \n");
+    printf("Enter elements of Matrix B\n");
     for (row = 0; row < rowSize; row++)
     {
         printf("Row %d : ", row + 1);
