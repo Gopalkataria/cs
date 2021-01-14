@@ -10,7 +10,7 @@ int main()
     printf(" Enter the row and column size of the matrix  ");
     scanf("%d%d", &rowSize, &colSize); // taking input for the row and column size
 
-    int matrix[rowSize][colSize], transposedMatrix[rowSize][colSize], row, col, rowSum, colSum;
+    int matrix[rowSize][colSize], transposedMatrix[colSize][rowSize], row, col, rowSum, colSum;
 
     // taking input for the matrix elements
     for (row = 0; row < rowSize; row++)
@@ -28,9 +28,9 @@ int main()
 
     // printing elements of transposed matrix
     printf("\n\n Transposed Matrix \n");
-    for (row = 0; row < rowSize; row++)
+    for (row = 0; row < colSize; row++) // rows traverse according to col size, since its transposed
     {
-        for (col = 0; col < colSize; col++)
+        for (col = 0; col < rowSize; col++) // cols traverse according to row size, since its transposed
         {
             printf("%d ", transposedMatrix[row][col]);
         }
@@ -54,7 +54,7 @@ int main()
         }
     }
 
-    printf("The Matrix is%s symmetric", (isSymmetricMatrix ? "" : " not"));
+    printf("\n The Matrix is%s symmetric", (isSymmetricMatrix ? "" : " not"));
 
     return 0;
 }
