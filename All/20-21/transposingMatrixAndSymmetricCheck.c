@@ -41,7 +41,6 @@ int main()
 
     for (row = 0; row < rowSize; row++)
     {
-
         if (!isSymmetricMatrix)
             break;
         for (col = 0; col < colSize; col++)
