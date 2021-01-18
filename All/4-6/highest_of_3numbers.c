@@ -1,4 +1,4 @@
-// Program to  find volume of a sphere
+// Program to  find highest of three given numbers
 // date : 15 oct 2020
 #include <stdio.h>
 
@@ -19,7 +19,6 @@ int main()
 
     if (b > highest)
         highest = b;
-
     if (c > highest)
         highest = c;
 

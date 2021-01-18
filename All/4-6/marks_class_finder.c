@@ -1,4 +1,4 @@
-// Program to  find class of students
+// Program to  find class of students based on their marks 
 // date : 15 oct 2020
 
 #include <stdio.h>

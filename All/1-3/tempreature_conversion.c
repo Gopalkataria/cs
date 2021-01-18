@@ -1,4 +1,5 @@
 // Program to  convert temperature from celsius to fahrenheit
+// the better the comments the better the code
 // date : 2nd oct friday
 
 #include <stdio.h>

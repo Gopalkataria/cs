@@ -8,8 +8,8 @@ int main()
 {
 
     // variable declarations
-    float a, b, c,
-        discriminant = 0, root1 = 0, root2 = 0;
+    int a, b, c;
+    float discriminant = 0, root1 = 0, root2 = 0;
 
     // taking input
     printf("Enter the values of a, b, c in quadratic equation ");
