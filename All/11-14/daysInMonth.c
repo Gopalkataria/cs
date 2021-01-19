@@ -29,7 +29,7 @@ int main()
     case 6:
     case 9:
     case 11:
-        printf("   31 days");
+        printf("   30 days");
         break;
 
     case 2:
