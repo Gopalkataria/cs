@@ -1,4 +1,4 @@
-// Program to  find class of students based on their marks 
+// Program to  find class of students based on their marks
 // date : 15 oct 2020
 
 #include <stdio.h>
@@ -16,9 +16,7 @@ int main()
 
     // logic
     percentage = (englishMarks + frenchMarks + chemistryMarks + physicsMarks + mathsMarks + computerMarks) / 6;
-
     printf("Percentage is %4.f You have scored ", percentage);
-
     if (percentage > 80)
     {
         printf("distinction ");

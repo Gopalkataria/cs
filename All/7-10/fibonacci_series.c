@@ -15,7 +15,7 @@ int main(void)
     int i = 0;
     printf("\n");
 
-    while (!(i == n))
+    while (i != n)
     {
         printf(" %d ", currentNumber);
 
