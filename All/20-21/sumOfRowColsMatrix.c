@@ -12,37 +12,36 @@ int main()
     printf(" Enter the row and column size of the matrix  ");
     scanf("%d%d", &rowSize, &colSize); // taking input for the row and column size
 
-    int matrix[rowSize][colSize], row, col, rowSum, colSum;
+    int matrix[rowSize][colSize], r, c, rsum, csum;
 
     // taking input for the matrix elements
-    for (row = 0; row < rowSize; row++)
-    {
-        for (col = 0; col < colSize; col++)
-        {
-            scanf("%d", &matrix[row][col]);
-        }
-    }
+    for (r = 0; r < rowSize; r++)
+     
+        for (c = 0; c < colSize; c++)
+         
+            scanf("%d", &matrix[r][c]);
+
 
     // finding sum of elements in a row
-    for (row = 0; row < rowSize; row++)
+    for (r = 0; r < rowSize; r++)
     {
-        rowSum = 0;
-        for (col = 0; col < colSize; col++)
+        rsum = 0;
+        for (c = 0; c < colSize; c++)
         {
-            rowSum += matrix[row][col];
+            rsum += matrix[r][c];
         }
-        printf("Sum of row %d is %d \n", 1 + row, rowSum);
+        printf("Sum of row %d is %d \n", 1 + r, rsum);
     }
 
     // finding sum of elements in a column
-    for (col = 0; col < colSize; col++)
+    for (c = 0; c < colSize; c++)
     {
-        colSum = 0;
-        for (row = 0; row < rowSize; row++)
+        csum = 0;
+        for (r = 0; r < rowSize; r++)
         {
-            colSum += matrix[row][col];
+            csum += matrix[r][c];
         }
-        printf("Sum of col %d is %d \n", 1 + col, colSum);
+        printf("Sum of col %d is %d \n", 1 + c, csum);
     }
 
     return 0;

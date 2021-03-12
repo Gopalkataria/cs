@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    int num = 1, n, count, isPrime, fact, nPrimesFound = 0;
+    int num = 1, n, count, isPrime, fact, nPrimes = 0;
 
     printf("enter the no. ");
     scanf("%d", &n);
