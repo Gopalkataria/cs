@@ -1,13 +1,13 @@
 // Program to  find whether a number is armstrong number or not
 // date : 8 nov 2020
 
-#include <stdio.h>
+#include <stdio.h>!
 
 int main(void)
 {
 
     int number, numberCopy, digit, sumOfCubes = 0;
-
+    
     printf("enter the number  ");
     scanf("%d", &number);
     numberCopy = number; // making a copy to show original number in end
