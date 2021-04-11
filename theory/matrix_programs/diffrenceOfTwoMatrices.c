@@ -56,7 +56,7 @@ int main()
     }
 
     // printing elements of matrix A + B
-    printf("\n\nMatrix A + Matrix B\n");
+    printf("\n\nMatrix A - Matrix B\n");
     for (row = 0; row < rowSize; row++)
     {
         for (col = 0; col < colSize; col++)

@@ -16,17 +16,32 @@ int main()
     }
 
     int matrix[rowSize][colSize], row, col, isDiagonal = 1;
+    printf("Enter the elements of the matrix \n ");
     for (row = 0; row < rowSize; row++)
     {
         for (col = 0; col < colSize; col++)
         {
             scanf("%d", &matrix[row][col]);
+        }
+    }
+
+    for (row = 0; row < rowSize; row++)
+    {
+        for (col = 0; col < colSize; col++)
+        {
             if (row != col && matrix[row][col] != 0)
                 isDiagonal = 0;
         }
     }
 
-    printf(" The Matrix is%s diagonal", (isDiagonal ? "" : " not"));
+    if (isDiagonal)
+    {
+        printf("matrix is diagonal ");
+    }
+    else
+    {
+        printf("matrix is not diagonal ");
+    }
 
     return 0;
 }

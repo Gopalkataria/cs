@@ -21,6 +21,13 @@ int main()
         }
     }
 
-    printf("The entered matrix is%s a sparse matrix", (zeroElements > (rowSize * colSize * 0.5)) ? "" : " not");
+    if (zeroElements > (rowSize * colSize * 0.5))
+    {
+        printf("matrix is sparse ");
+    }
+    else
+    {
+        printf("matrix is not sparse ");
+    }
     return 0;
 }

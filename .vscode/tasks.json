@@ -4,7 +4,7 @@
         {
             "type": "shell",
             "label": "C/C++: g++.exe build active file",
-            "command": "C:\\MinGW\\mingw64\\bin\\g++.exe",
+            "command": "/usr/bin/g++ ",
             "args": [
                 "-g",
                 "${file}",
@@ -25,12 +25,10 @@
         {
             "type": "shell",
             "label": "C/C++: g++.exe build and run active file",
-            "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -g ${file} -o ${fileBasenameNoExtension}.out ; .\\${fileBasenameNoExtension}.out ; echo `n ",
+            "command": "/usr/bin/g++  -g ${file} -o ${fileBasenameNoExtension}.out ; .//${fileBasenameNoExtension}.out ; echo \n ",
             "options": {
                 "cwd": "${fileDirname}",
-                "shell": {
-                    "executable": "powershell.exe"
-                }
+                
             },
             "promptOnClose": false,
             "presentation": {
