@@ -1,6 +1,6 @@
 ## Code for CS class in 2020
 
-#### IMPORTANT : This repository is archived, so please fix code issues yourself.
+#### IMPORTANT : This repository is no longer maintained and is archived, this repo exists only for historical purposes, so please fix code issues yourself. 
 
 This code is licensed under MIT license. Use this code only if you agree to the license
 
